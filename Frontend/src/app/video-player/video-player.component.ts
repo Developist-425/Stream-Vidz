@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MovieService } from 'src/app/movie.service';
+import { ActivatedRoute } from '@angular/router';
+
 
 
 @Component({
@@ -12,12 +14,24 @@ export class VideoPlayerComponent implements OnInit {
 
   trending: any[] = [];
   recommended: any[] = [];
+  movie: any;
 
-constructor(private movieService: MovieService) {}
+  constructor(
+    private route: ActivatedRoute,
+    private movieService: MovieService
+  ) {}
 
 ngOnInit(): void {
-  this.trending = this.movieService.getTrending();
-  this.recommended = this.movieService.getRecommended();
+  //this.trending = this.movieService.getTrending();
+   this.recommended = this.movieService.getRecommended();
+ 
+  const idParam = this.route.snapshot.paramMap.get('id');
+    if (idParam !== null) {
+      const movieId = +idParam;
+      this.movie = this.movieService.getTrendingById(movieId);
+      this.movie = this.movieService.getRecommendedById(movieId);
+      // this.movie = this.movieService.getSliderById(movieId);
+}
 }
 
 defaultTransform: number = 0;

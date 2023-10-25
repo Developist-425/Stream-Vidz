@@ -1,14 +1,14 @@
 <div class="w-full mt-12 ">
   <div class="flex items-center  justify-center w-[95%] h-[90%] ml-auto mr-auto bg-black">
-    <video controls class="w-5/6 ml-auto mr-auto h-4/5">
-      <source src="https://youtu.be/YIECFZb1IxQ?si=3bzG8zHc8vnnPs2m" type="video/mp4" />
+    <video controls class="w-5/6 ml-auto mr-auto h-4/5 "muted autoplay>
+      <source [src]="movie.trailerUrl" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
   </div>
   <div class="flex flex-row w-full mt-4">
     <div class="w-2/5 h-[100%] flex flex-col items-center">
       <img class="w-[450px] h-[85%] ml-auto mr-auto rounded-xl"
-        src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Imran_Ahmed_Khan_Niazi_-_UNGA_%2848784380531%29_%28cropped%29.jpg">
+        src="https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/MESSI.jpg">
       <div class="mt-4 space-x-2">
         <button
           class=" w-[105px] h-[75px] hover:bg-purple-600/80 hover:opacity-100 ease-in-out duration-500 rounded-lg ml-2 bg-black/40 mt-2"><img
@@ -25,7 +25,8 @@
       </div>
     </div>
     <div class="w-3/5 h-4/5">
-      <h1 class="font-medium leading-tight text-white text-xml lg:pt-[20px]">IMMU JANi</h1>
+      <h1 class="font-medium leading-tight text-white text-xml lg:pt-[20px]">{{movie.title}}
+      </h1>
       <div class="flex flex-row w-full max-sm:flex-col">
         <div class=" w-[140px] max-sm:w-[100px] ">
           <ul class="flex gap-1 max-sm:gap-0 list-none pt-1 pl-2 small_mob1:mt-[9px]" data-te-rating-init>
@@ -172,11 +173,11 @@
                   class="flex items-center justify-start h-full transition duration-700 ease-out lg:gap-3 md2:gap-3 md:gap-2 sm:gap-2 tab:gap-[12px] cust:gap-2 gapp:gap-2 cus:gap-2 bigg_mob2:gap-2 big_mob1:gap-2 small_mob1:gap-2">
 
 
-                  <div class="bg-transparent card card-image-cover" *ngFor="let trend of trending">
+                  <div class="bg-transparent card card-image-cover" *ngFor="let rec of recommended">
 
-                    <a [routerLink]="['/video-player', trend.id]">
+                    <a [routerLink]="['/video-player', rec.id]">
 
-                      <video [src]="trend.trailerUrl" class="object-cover object-center" autoplay></video>
+                      <video [src]="rec.trailerUrl" class="object-cover object-center" autoplay></video>
                     </a>
                     <div class="space-y-4">
 
@@ -184,7 +185,7 @@
 
                         <h2
                           class="ml-2 space-x-2 text-sm font-bold text-white lg:pt-3 lg:tracking-wide md2:pt-2 md:pt-3 cust1:pt-3 sm:pt-3 tab:pt-3 cust:pt-3 gapp:pt-3 cus:pt-3 bigg_mob2:pt-3 big_mob1:pt-3 small_mob1:pt-3">
-                          {{trend.title}}</h2>
+                          {{rec.title}}</h2>
 
                       </div>
                     </div>
