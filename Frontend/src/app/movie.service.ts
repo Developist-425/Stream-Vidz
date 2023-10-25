@@ -34,6 +34,10 @@ export class MovieService {
       trailerUrl: '../assets/videos/messi.mp4',
       image:'https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1',
       description: 'Description for Movie 3',
+      profile1:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1",
+      profile2:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1",
+      profile3:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1",
+      profile4:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1"
     },
     {
       id: 4,
@@ -41,6 +45,10 @@ export class MovieService {
       trailerUrl: '../assets/videos/ronnie2.mp4',
       image:'https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1',
       description: 'Description for Movie 3',
+      profile1:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1",
+      profile2:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1",
+      profile3:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1",
+      profile4:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1"
     },
     {
       id: 5,
@@ -48,6 +56,10 @@ export class MovieService {
       trailerUrl: '../assets/videos/ney.mp4',
       image:'https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1',
       description: 'Description for Movie 3',
+      profile1:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1",
+      profile2:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1",
+      profile3:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1",
+      profile4:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1"
     },
     {
       id: 6,
@@ -55,6 +67,10 @@ export class MovieService {
       trailerUrl: '../assets/videos/ney 3.mp4',
       image:'https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1',
       description: 'Description for Movie 3',
+      profile1:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1",
+      profile2:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1",
+      profile3:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1",
+      profile4:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1"
     },
     {
       id: 7,
@@ -62,6 +78,10 @@ export class MovieService {
       trailerUrl: '../assets/videos/messi 2.mp4',
       image:'https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1',
       description: 'Description for Movie 3',
+      profile1:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1",
+      profile2:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1",
+      profile3:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1",
+      profile4:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1"
     },
   ];
 
