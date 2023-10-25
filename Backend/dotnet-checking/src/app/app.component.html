@@ -1,0 +1,28 @@
+<h1>ADMIN PANEL</h1>
+
+<!-- Add a form for adding new videos -->
+<div>
+  <input [(ngModel)]="newVideo.Video" placeholder="Video" />
+  <input [(ngModel)]="newVideo.title" placeholder="Title" />
+  <input [(ngModel)]="newVideo.description" placeholder="Discription" />
+  <input [(ngModel)]="newVideo.image" placeholder="image" />
+  <input [(ngModel)]="newVideo.profile1" placeholder="profile1" />
+  <input [(ngModel)]="newVideo.profile2" placeholder="profile2" />
+  <input [(ngModel)]="newVideo.profile3" placeholder="profile3" />
+  <input [(ngModel)]="newVideo.profile4" placeholder="profile4" />
+  <button (click)="addVideo()">Add Video</button>
+</div>
+
+<h4 *ngFor="let data of videos">
+  <b>=> {{data.Id}}: </b>
+  <input [(ngModel)]="data.Video" /><br/>
+  <input [(ngModel)]="data.title" /><br/>
+  <input [(ngModel)]="data.description" /><br/>
+  <input [(ngModel)]="data.image" /><br/>
+  <input [(ngModel)]="data.profile1" /><br/>
+  <input [(ngModel)]="data.profile2" /><br/>
+  <input [(ngModel)]="data.profile3" /><br/>
+  <input [(ngModel)]="data.profile4" /><br/>
+  <button (click)="updateVideo(data)">Update</button>
+  <button (click)="deleteVideo(data.Id)">Delete</button>
+</h4>
