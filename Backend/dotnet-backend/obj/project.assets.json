@@ -1474,19 +1474,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dell\\.nuget\\packages\\": {}
+    "C:\\Users\\PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\streamfnb\\streamapi\\streamapi.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\OneDrive\\Desktop\\Stream-Vidz-Project-Final\\Backend\\dotnet-backend\\streamapi.csproj",
       "projectName": "streamapi",
-      "projectPath": "D:\\streamfnb\\streamapi\\streamapi.csproj",
-      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "D:\\streamfnb\\streamapi\\obj\\",
+      "projectPath": "C:\\Users\\PC\\OneDrive\\Desktop\\Stream-Vidz-Project-Final\\Backend\\dotnet-backend\\streamapi.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PC\\OneDrive\\Desktop\\Stream-Vidz-Project-Final\\Backend\\dotnet-backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
