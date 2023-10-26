@@ -4,6 +4,7 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root',
 })
+
 export class MovieService {
   private trending = [
     {
@@ -87,7 +88,7 @@ export class MovieService {
 
   private recommended = [
     {
-      id: 1,
+      id: 11,
       title: 'Haaland Vs Rashford',
       trailerUrl: '../assets/videos/ozil.mp4',
       image:'https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1',
@@ -98,7 +99,7 @@ export class MovieService {
       profile4:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1"
     },
     {
-      id: 2,
+      id: 12,
       title: 'Haaland VS Rashford',
       trailerUrl: '../assets/videos/ronnie3.mp4',
       image:'https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1',
@@ -109,7 +110,7 @@ export class MovieService {
       profile4:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1"
     },
     {
-      id: 3,
+      id: 13,
       title: 'Liverpool Vs Manchester',
       trailerUrl: '../assets/videos/mbappe 2.mp4',
       image:'https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1',
@@ -120,7 +121,7 @@ export class MovieService {
       profile4:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1"
     },
     {   
-         id: 4,
+         id: 14,
       title: 'Manchester Vs Brighton',
       trailerUrl: '../assets/videos/messi 2.mp4',
       image:'https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1',
@@ -131,7 +132,7 @@ export class MovieService {
       profile4:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1"
     },
     {
-      id: 5,
+      id: 15,
       title: 'Manchester Vs Spain',
       trailerUrl: '../assets/videos/ney2.mp4',
       image:'https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1',
@@ -142,7 +143,7 @@ export class MovieService {
       profile4:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1"
     },
     {
-      id: 6,
+      id: 16,
       title: 'Portugal Vs Spain',
     trailerUrl: '../assets/videos/messi 3.mp4',
       image:'https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1',
@@ -153,7 +154,7 @@ export class MovieService {
       profile4:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1"
     },
     {
-      id: 7,
+      id: 17,
       title: 'Greece Vs Chelsea',
       trailerUrl: '../assets/videos/bale.mp4',
       image:'https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1',
@@ -162,7 +163,7 @@ export class MovieService {
       profile2:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1",
       profile3:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1",
       profile4:"https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg?lm=1"
-    },
+    }
 
   ];
 

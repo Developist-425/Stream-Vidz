@@ -16,10 +16,19 @@ export class CategoriesComponent {
 
   constructor(private movieService: MovieService) {}
 
+  // ngOnInit(): void {
+   
+  //    this.trending = this.movieService.getTrending();
+    
+  //   this.recommended = this.movieService.getRecommended();
+    
+  // }
+
   ngOnInit(): void {
     this.trending = this.movieService.getTrending();
     this.recommended = this.movieService.getRecommended();
   }
+  
 
   defaultTransform: number = 0;
 
